@@ -1,10 +1,9 @@
 body {
     margin: 60px auto;
     width: 70%;
-    font-family: 'Roboto Slab', serif;
+    font-family:'Roboto Slab', 'Serif';
 }
 nav ul, footer ul {
-    font-family: 'Helvetica', sans-serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -22,12 +21,20 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family:'Roboto Slab', 'Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
     color: #333;
+}
+h4.org {
+    font-size: 1.3em;
+}
+
+.org, .org > a {
+    color: #00A9E0;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.2em;
+    color: #666;
 }
 footer {
     border-top: 1px solid #d5d5d5;
@@ -36,9 +43,12 @@ footer {
 
 ul.posts { 
     margin: 20px auto 40px; 
-    font-size: 1.5em;
 }
 
 ul.posts li {
     list-style: none;
+}
+
+.headline {
+    color: #000;
 }
