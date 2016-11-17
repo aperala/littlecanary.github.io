@@ -1,8 +1,8 @@
-----
+---
 layout: post
 title: "What We Can Do Today"
 date: 2016-11-17
-----
+---
 
 > On Tuesday, the director of the National Security Agency, Admiral Michael Rogers, was asked about the WikiLeaks release of hacked information during the campaign, and he said, "This was a conscious effort by a nation-state to attempt to achieve a specific effect." 
 
