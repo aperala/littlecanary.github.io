@@ -4,6 +4,17 @@ layout: default
 <h1>{{ page.title }}</h1>
 <p class="meta">{{ page.date | date_to_string }}</p>
 
+<!--  Share buttons code -->
+
+<div class="fb-share-button" 
+  data-href="{{ page.url }}"
+  data-layout="button_count">
+</div>
+
+<a class="twitter-share-button"
+  href="https://twitter.com/intent/tweet?text=What%20to%20Do%20Today?&url={{ page.url }}">
+  Tweet</a>
+
 <div class="post">
   {{ content }}
 </div>
